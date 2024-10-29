@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, helevtica;
+}
+
+.website-header {
+    font-weight: 500;
+    color: #191923;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+h3 {
+    color: #191923;
+    font-size: 26px;
+}
+
+.color-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}   
+
+.color, .fonts, .text-styles {
+    margin: 10px 4vw;
+    padding: 2vh;
+    border: 2px solid gray;
+    margin-bottom: 2.5vh;
+}
+
+.color-div-blue, .color-div-red, .color-div-orange {
+    width: 24vw;
+    height: 30vh;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FBFEF9;
+    font-size: clamp(12px, 1.6vw, 22px);
+}
+
+.color-div-blue {
+    background-color: #0E79B2;
+
+}
+
+.color-div-red {
+    background-color: #BF1363;
+}
+
+.color-div-orange {
+    background-color: #F39237;
+}
+
+
+.font-title {
+    text-decoration: underline;
+    margin: 15px;
+}
+
+
+
+h5 {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+#Montserrat p {
+    font-family: Montserrat;
+}
+
+#Inter p {
+    font-family: Inter;
+}
+
+#Playfair p {
+    font-family: playfair;
+}
+
+#Prata p {
+    font-family: prata
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font-div p {
+    margin: 12px 30px;
+}
+
+ul {
+    margin: 16px 30px;
+}
+
+#text-styles-header {
+    margin-bottom: 10px;
+}
